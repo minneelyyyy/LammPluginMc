@@ -1,0 +1,10 @@
+name: LammPluginMc
+description: allow users to call /lamm and run lamm code
+author: minneelyyyy
+version: 1.0
+api-version: 1.21
+main: com.minneelyyyy.plugin.LammPluginMc
+commands:
+  lamm:
+    description: run lamm code and return the result in chat
+    usage: /lamm <code>
